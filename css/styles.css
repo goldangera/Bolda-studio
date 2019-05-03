@@ -1,0 +1,12 @@
+body{
+  background image:url(../assets/backgrounds/h_img.jpg)
+}
+.centered {
+  /* position: center;
+  top: 500%;
+  left: 500%;
+  transform: translate(-50%, -50%);
+  color: white; */
+color: white;
+text-align: center;
+}
