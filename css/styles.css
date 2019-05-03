@@ -18,4 +18,8 @@
 .what-we-do-heading{
   text-align: center;
   }
-  
+
+.col-md-4{
+  text-align: center;
+  text-transform: uppercase;
+}
