@@ -15,11 +15,38 @@
   text-align: center;
   color: white;
 }
-.what-we-do-heading{
+.what_we_do_heading{
+
   text-align: center;
-  }
+}
 
 .col-md-4{
+  flex: auto;
   text-align: center;
-  text-transform: uppercase;
+
+}
+
+.row{
+
+  display: flex;
+  /* flex-direction: row; */
+
+}
+.title-up{
+ text-align: center;
+}
+
+.five{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.five div{
+  height:30%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.five img{
+  width: 100%;
 }
