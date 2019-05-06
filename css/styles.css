@@ -36,17 +36,38 @@
  text-align: center;
 }
 
-.five{
+.row {
+  flex: auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: row;
 }
-.five div{
-  height:30%;
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
+
+.col-lg-4 {
+  flex: auto;
+  text-align: center;
 }
-.five img{
+
+.image {
+  margin-bottom: 2%;
+}
+
+.five div {
+  width: 22%;
+  padding: 10px;
+}
+
+.five img {
   width: 100%;
 }
+
+br {
+  display: block;
+  margin: 0px 0;
+}
+
+.six {
+  text-align: center;
+  background: url(../assets/backgrounds/c_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
